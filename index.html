@@ -7,33 +7,37 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Calculator structure -->
     <article class="calc">
+      <!-- Display area for calculator result -->
       <output class="calc__result" id="result"></output>
 
-      <button type="button" class="calc__btn">7</button>
-	  <button type="button" class="calc__btn">8</button>
-	  <button type="button" class="calc__btn">9</button>
-	  <button type="button" class="calc__btn calc__btn_operator">+</button>
+      <!-- Calculator buttons -->
+      <button type="button" class="calc__btn" aria-label="seven">7</button>
+      <button type="button" class="calc__btn" aria-label="eight">8</button>
+      <button type="button" class="calc__btn" aria-label="nine">9</button>
+      <button type="button" class="calc__btn calc__btn_operator" aria-label="add">+</button>
 
-	  <button type="button" class="calc__btn">4</button>
-	  <button type="button" class="calc__btn">5</button>
-	  <button type="button" class="calc__btn">6</button>
-	  <button type="button" class="calc__btn calc__btn_operator">-</button>
+      <button type="button" class="calc__btn" aria-label="four">4</button>
+      <button type="button" class="calc__btn" aria-label="five">5</button>
+      <button type="button" class="calc__btn" aria-label="six">6</button>
+      <button type="button" class="calc__btn calc__btn_operator" aria-label="subtract">-</button>
 
-	  <button type="button" class="calc__btn">1</button>
-	  <button type="button" class="calc__btn">2</button>
-	  <button type="button" class="calc__btn">3</button>
-	  <button type="button" class="calc__btn calc__btn_operator">*</button>
+      <button type="button" class="calc__btn" aria-label="one">1</button>
+      <button type="button" class="calc__btn" aria-label="two">2</button>
+      <button type="button" class="calc__btn" aria-label="three">3</button>
+      <button type="button" class="calc__btn calc__btn_operator" aria-label="multiply">*</button>
 
-	  <button type="button" class="calc__btn">0</button>
-	  <button type="button" class="calc__btn">.</button>
-	  <button type="button" class="calc__btn">00</button>
-	  <button type="button" class="calc__btn calc__btn_operator">/</button>
+      <button type="button" class="calc__btn" aria-label="zero">0</button>
+      <button type="button" class="calc__btn" aria-label="demical">.</button>
+      <button type="button" class="calc__btn" aria-label="double zero">00</button>
+      <button type="button" class="calc__btn calc__btn_operator" aria-label="divide">/</button>
 
-	  <button type="button" class="calc__btn calc__btn_reset">C</button>
-	  <button type="button" class="calc__btn calc__btn_equal">=</button>
+      <button type="button" class="calc__btn calc__btn_reset" aria-label="clear">C</button>
+      <button type="button" class="calc__btn calc__btn_equal" aria-label="equals">=</button>
     </article>
 
+	<!-- Link to the calculator JS logic -->
     <script src="calculator.js"></script>
   </body>
 </html>
